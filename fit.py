@@ -23,9 +23,33 @@ from motGPT.data.transforms.joints2rots import config
 from motGPT.data.transforms.joints2rots.smplify import SMPLify3D
 from motGPT.utils.joints import mmm_to_smplh_scaling_factor
 from motGPT.utils.temos_utils import subsample
-from scripts.plys2npy import plys2npy
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
+
+
+def plys2npy(ply_dir, out_dir):
+    ply_dir = Path(ply_dir)
+    paths = []
+    file_list = natsort.natsorted(os.listdir(ply_dir))
+    for item in file_list:
+        if item.endswith(".ply") and not item.endswith("_gt.ply"):
+            paths.append(os.path.join(ply_dir, item))
+
+
+    meshs = np.zeros((len(paths), 6890, 3))
+    for i, path in enumerate(paths):
+        mesh = trimesh.load_mesh(path, process=False)
+        vs = mesh.vertices
+        assert vs.shape == (6890, 3)
+        meshs[i] = vs 
+
+    basename = os.path.basename(ply_dir)
+    if basename.startswith("SMPLFit_"):
+        basename = basename[len("SMPLFit_"):]
+    file_name = os.path.join(out_dir, basename+ "_mesh.npy")
+    np.save(file_name, meshs)
+    
+    
 
 # parsing argmument
 parser = argparse.ArgumentParser()
