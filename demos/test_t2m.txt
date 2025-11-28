@@ -1,0 +1,19 @@
+a person is practicing karate kicks #/datasets/HumanML3D/new_joint_vecs/013039.npy#0.0#10.0#200
+A person walks in a semi-circular pattern, tip-toeing. #/datasets/HumanML3D/new_joint_vecs/014504.npy#0.0#10.0#200
+A person walks forward, stops, turns directly to their right, then walks forward again. #/datasets/HumanML3D/new_joint_vecs/007085.npy#0.0#8.85#176
+A person is crouched down and walking around sneakily. #/datasets/HumanML3D/new_joint_vecs/M006304.npy#0.0#9.75#194
+A man swimming using both hands together while kicking his feet in unison. #/datasets/HumanML3D/new_joint_vecs/000865.npy#0.0#10.0#200
+A person sits on the ledge of something then gets off and walks away. #/datasets/HumanML3D/new_joint_vecs/011471.npy#0.0#9.35#186
+A person bends down and picks something up and then sets it down. #/datasets/HumanML3D/new_joint_vecs/003374.npy#0.0#4.81#96
+A person is practicing balancing on one leg. #/datasets/HumanML3D/new_joint_vecs/008431.npy#0.0#10.0#200
+a man squats three times while raising both arms in the air as if holding a dumbell. #/datasets/HumanML3D/new_joint_vecs/001781.npy#0.0#3.85#76
+a person jumps to his left horizonly. #/datasets/HumanML3D/new_joint_vecs/010818.npy#0.0#7.7#154
+a person runs to their right and then curves to the left and continues to run. #/datasets/HumanML3D/new_joint_vecs/010157.npy#0.0#2.542#50
+a person lifts both hands above her head, moves both hands rapidly outwards and back to above her head,then lowers both arms. #/datasets/HumanML3D/new_joint_vecs/M005468.npy#0.0#4.87#98
+a person bends down to pick something up with their right arm, sets it down with their left arm, and then starts to pour something into it. #/datasets/HumanML3D/new_joint_vecs/004851.npy#0.0#10.0#200
+the person throws out their right arm in front of them then brings both hands to their mouth before lowering them together to the center of their body. #/datasets/HumanML3D/new_joint_vecs/000358.npy#0.0#5.475#110
+a woman stands, holding both arms up at her sides, then brings both hands down together to her left side. #/datasets/HumanML3D/new_joint_vecs/005052.npy#0.0#10.0#200
+a man is lifting his right arm. #/datasets/HumanML3D/new_joint_vecs/M001178.npy#0.0#2.0#40
+a person lowers their arms, gets onto all fours, and crawls. #/datasets/HumanML3D/new_joint_vecs/004540.npy#0.0#5.34#106
+a person bends over and picks things up with both hands individually, then walks forward. #/datasets/HumanML3D/new_joint_vecs/M008904.npy#0.0#10.0#200
+a person walks forward, stops, turns directly to their right, then walks forward again. #/datasets/HumanML3D/new_joint_vecs/M007085.npy#0.0#8.85#178

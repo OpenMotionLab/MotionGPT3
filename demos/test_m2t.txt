@@ -1,0 +1,20 @@
+Describe the action being represented by <Motion_Placeholder> using text.#/datasets/HumanML3D/new_joint_vecs/009877.npy
+What kind of action is being demonstrated in <Motion_Placeholder>? Explain it in text.#/datasets/HumanML3D/new_joint_vecs/000067.npy
+Describe the movement demonstrated in <Motion_Placeholder> in words.#/datasets/HumanML3D/new_joint_vecs/M005468.npy
+Generate a sentence that explains the action in <Motion_Placeholder>.#/datasets/HumanML3D/new_joint_vecs/M012506.npy
+Generate text. Input: <Motion_Placeholder>. Output: #/datasets/HumanML3D/new_joint_vecs/012046.npy
+Please describe the movement depicted in <Motion_Placeholder> using natural language.#/datasets/HumanML3D/new_joint_vecs/002932.npy
+Provide a description of the motion being displayed in <Motion_Placeholder> using language.#/datasets/HumanML3D/new_joint_vecs/014021.npy
+Give me a brief summary of the movement depicted in <Motion_Placeholder>.#/datasets/HumanML3D/new_joint_vecs/M008498.npy
+What is being displayed in <Motion_Placeholder>? Please explain it in text.#/datasets/HumanML3D/new_joint_vecs/005596.npy
+Describe the movement demonstrated in <Motion_Placeholder> using natural language.#/datasets/HumanML3D/new_joint_vecs/M011797.npy
+What is being shown in <Motion_Placeholder>? Please explain it using words.#/datasets/HumanML3D/new_joint_vecs/M014046.npy
+Describe the motion portrayed in <Motion_Placeholder> in natural language.#/datasets/HumanML3D/new_joint_vecs/M000379.npy
+Please provide a text-based explanation of the action being displayed in <Motion_Placeholder>.#/datasets/HumanML3D/new_joint_vecs/002323.npy
+Explain the movement illustrated in <Motion_Placeholder> using text.#/datasets/HumanML3D/new_joint_vecs/001931.npy
+Please explain the action depicted in <Motion_Placeholder> using words.#/datasets/HumanML3D/new_joint_vecs/010956.npy
+What is being shown in <Motion_Placeholder>? Please describe it in text.#/datasets/HumanML3D/new_joint_vecs/M005818.npy
+Please explain the movement being represented by <Motion_Placeholder> using text.#/datasets/HumanML3D/new_joint_vecs/006036.npy
+What kind of action is demonstrated in <Motion_Placeholder>? Explain it in words.#/datasets/HumanML3D/new_joint_vecs/M000439.npy
+Describe the motion displayed in <Motion_Placeholder> in natural language.#/datasets/HumanML3D/new_joint_vecs/M000358.npy
+Please describe the movement depicted in <Motion_Placeholder> using natural language.#/datasets/HumanML3D/new_joint_vecs/M002544.npy
