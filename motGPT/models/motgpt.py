@@ -479,7 +479,7 @@ class MotGPT(BaseModel):
                                                rs_set["joints_ref"], lengths)
                     elif metric == "TM2TMetrics":
                         if self.hparams.stage in [
-                                "lm_instruct", "lm_pretrain", "lm_rl", "lm_adaptor_pretrain"
+                                "lm_instruct", "lm_pretrain", "lm_finetune", "lm_rl", "lm_adaptor_pretrain"
                         ]:
                             word_embs = batch['word_embs']
                             pos_ohot = batch['pos_ohot']
