@@ -376,7 +376,7 @@ class MotionGPT(BaseModel):
         if self.hparams.stage == "vae" and split in ["train", "val"]:
             rs_set = self.train_vae_forward(batch)
             loss = self._losses['losses_' + split].update(rs_set)
-        elif self.hparams.stage in ["lm_instruct", "lm_pretrain", "lm_t2m"
+        elif self.hparams.stage in ["lm_instruct", "lm_pretrain", "lm_finetune", "lm_t2m"
                                     ] and split in ["train"]:
             # with torch.autograd.profiler.profile(use_cuda=True) as prof:
             rs_set = self.train_lm_forward(batch)
@@ -392,7 +392,7 @@ class MotionGPT(BaseModel):
         if split in ["val", "test"]:
             if self.hparams.stage == "vae":
                 rs_set = self.val_vae_forward(batch, split)
-            elif self.hparams.stage in ["lm_instruct", "lm_pretrain", "lm_rl", "lm_t2m"]:
+            elif self.hparams.stage in ["lm_instruct", "lm_pretrain", "lm_finetune", "lm_rl", "lm_t2m"]:
                 if self.hparams.task == "t2m":
                     rs_set = self.val_t2m_forward(batch)
                 elif self.hparams.task == "m2t":
@@ -445,7 +445,7 @@ class MotionGPT(BaseModel):
                                                rs_set["joints_ref"], lengths)
                     elif metric == "TM2TMetrics":
                         if self.hparams.stage in [
-                                "lm_instruct", "lm_pretrain", "lm_rl", "lm_t2m"
+                                "lm_instruct", "lm_pretrain", "lm_finetune", "lm_rl", "lm_t2m"
                         ]:
                             word_embs = batch['word_embs']
                             pos_ohot = batch['pos_ohot']
@@ -497,7 +497,7 @@ class MotionGPT(BaseModel):
                         raise TypeError(f"Not support this metric {metric}")
 
             elif self.hparams.task == "m2t" and self.hparams.stage in [
-                    "lm_instruct", "lm_pretrain", "lm_rl", "lm_t2m"
+                    "lm_instruct", "lm_pretrain", "lm_finetune", "lm_rl", "lm_t2m"
             ]:
                 if batch_idx == 0:
                     from motGPT.utils.render_utils import render_motion
